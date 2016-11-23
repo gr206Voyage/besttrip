@@ -14,8 +14,8 @@
 /* OVERALL ASPECT */
 
 body {
-  background-color: #f2f2f2;
-    font-family: "Lato";
+  background-color: white;
+font-family: Arial;
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -87,11 +87,18 @@ a:after {
 	font-size: 14px;
 	padding-top: 20px;
 	padding-bottom: 5px;
+	margin-bottom: 30px;
+	color: black;
 }
+
+
 
 .navbar-inverse {
 	background: url(../img/header.png);
-	/*border-color: #2d2d2d;*/
+	
+}
+.navbar-inverse .navbar-nav  a {
+	margin-top: 30px;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
@@ -111,18 +118,20 @@ a:after {
 }
 
 .navbar-inverse .navbar-brand {
-	color: #999999;
+	
 	/*font-weight: bolder;*/
 	font-size: 22px;
 	letter-spacing: 1px;
 	background-color: white;
-	
 }
 
-.navbar-inverse .navbar-brand i {
-	
-	font-size: 22px;
-	letter-spacing: 1px;
+.navbar .nav > li > a, .navbar .nav > li > a:first-letter,
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a {
+                   
+font-family: Arial;
+font-size: 1em;
+
 }
 
 /*TILT*/
@@ -249,16 +258,158 @@ a:after {
 	color:black;
 	padding-top: 5px;
 	padding-bottom: 60px;
+	padding-right: 20px;
+	
+	
 }
 
-#f i {
-	color: #bdbdbd;
-	font-size: 30px;
-	padding: 20px;
+
+.btn {
+  background: #000000;
+  background-image: -webkit-linear-gradient(top, #000000, #000000);
+  background-image: -moz-linear-gradient(top, #000000, #000000);
+  background-image: -ms-linear-gradient(top, #000000, #000000);
+  background-image: -o-linear-gradient(top, #000000, #000000);
+  background-image: linear-gradient(to bottom, #000000, #000000);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 5px 5px 5px 5px;
+  border: solid #000000 2px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+  text-decoration: none;
+  color: #000000;
+  border: solid #000000 2px;
+}
+
+.btn2 {
+  background: #000000;
+  background-image: -webkit-linear-gradient(top, #000000, #000000);
+  background-image: -moz-linear-gradient(top, #000000, #000000);
+  background-image: -ms-linear-gradient(top, #000000, #000000);
+  background-image: -o-linear-gradient(top, #000000, #000000);
+  background-image: linear-gradient(to bottom, #000000, #000000);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 2px 54px 8px 54px;
+  border: solid #000000 2px;
+  text-decoration: none;
+  text-align:center;
+}
+.email{
+	 padding: 2px 30px 8px 30px;
+	 background: grey;
+	 margin-bottom:10px;
+}
+.abonner{
+	margin-top:10px;
+}
+.btn2:hover {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+  text-decoration: none;
+  color: #000000;
+  border: solid #000000 2px;
+}
+
+.btn3 {
+    background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+  
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: black;
+  font-size: 15px;
+  padding: 8px 30px 8px 30px;
+  border: solid #000000 1px;
+  text-decoration: none;
+  margin-top:-9px; 
+}
+.btn3:hover {
+	transition: 0.9s;
+	background: #000000;
+  background-image: -webkit-linear-gradient(top, #000000, #000000);
+  background-image: -moz-linear-gradient(top, #000000, #000000);
+  background-image: -ms-linear-gradient(top, #000000, #000000);
+  background-image: -o-linear-gradient(top, #000000, #000000);
+  background-image: linear-gradient(to bottom, #000000, #000000);
+
+  text-decoration: none;
+  color: white;
+  
+}
+
+
+.btn4 {
+    background-color: #ffffff;
+ 
+  font-family: Arial;
+  color: black;
+  font-size: 15px;
+  padding: 8px 30px 8px 30px;
+ border: solid white 1px;
+  text-decoration: none;
+  margin-top:32px; 
+  margin-right:10px; 
+}
+
+.btnD {
+  background: #000000;
+  background-image: -webkit-linear-gradient(top, #000000, #000000);
+  background-image: -moz-linear-gradient(top, #000000, #000000);
+  background-image: -ms-linear-gradient(top, #000000, #000000);
+  background-image: -o-linear-gradient(top, #000000, #000000);
+  background-image: linear-gradient(to bottom, #000000, #000000);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 50px 20px 50px;
+ 
+  border: solid #000000 2px;
+  text-decoration: none;
+  text-align:center;
+}
+
+#f img {
+	/*color: #bdbdbd;*/
+	/*font-size: 30px;*/
+	
 }
 
 #f i:hover {
 	color: #ff7878;
+}
+.abonner
+{
+	margin-right:10px;
 }
 
 /****** SECTIONS *****/
@@ -428,7 +579,9 @@ a:after {
 .carousel-inner > .item > img,.carousel-inner > .item > a > img {
       width:100%;
 	height:500px;
-	margin-top:85px;
+	margin-top:75px;
 	background-color:white;
   }
-
+.drapsejours{
+	margin-left:20px;
+}
