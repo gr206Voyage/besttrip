@@ -397,7 +397,15 @@ font-size: 1em;
   text-decoration: none;
   text-align:center;
 }
-
+.imgd{
+	 margin-top:69px;
+}
+.imgd2{
+	 margin-top:72px;
+}
+.imgd3{
+	 margin-top:85px;
+}
 #f img {
 	/*color: #bdbdbd;*/
 	/*font-size: 30px;*/
